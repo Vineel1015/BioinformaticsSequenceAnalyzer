@@ -1,0 +1,85 @@
+# Build artifacts
+build/
+bin/
+lib/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+compile_commands.json
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.env
+
+# Testing artifacts
+Testing/
+CTestTestfile.cmake
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation generated files
+docs/html/
+docs/latex/
+*.pdf
+*.aux
+*.log
+
+# Data files (you might want to track some)
+data/large_datasets/
+*.fastq
+*.fq
+*.sam
+*.bam
+*.vcf
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.cache/
+
+# Package managers
+node_modules/
+.npm/
+EOF
